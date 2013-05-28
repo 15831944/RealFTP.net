@@ -1,0 +1,695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{9a589247-f471-4583-b745-1d2819fd1df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{13d46725-4b59-4916-b5f9-e585f0adceee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MFC">
+      <UniqueIdentifier>{d8f0f7c9-e845-4129-aeb8-99cfdc76bde1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MFC">
+      <UniqueIdentifier>{a650daf5-4a88-4f45-8a42-10a00280341c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers">
+      <UniqueIdentifier>{b13a9e69-e08a-404f-97f6-40a9809c3785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Containers">
+      <UniqueIdentifier>{59a2a261-d2e0-4f2b-9f10-16d7b6d6f517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FTP">
+      <UniqueIdentifier>{06a33e17-061c-497a-946c-a97cff286a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FTP">
+      <UniqueIdentifier>{bdcc5143-abb0-41bc-b841-69252279ea59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ToolTray">
+      <UniqueIdentifier>{8903e950-3c33-4d05-b39d-ec51026404fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ToolTray">
+      <UniqueIdentifier>{f1c18bb6-d777-4fcd-9e12-d2ff64d3c09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{40aeb2e2-354c-4c9e-aa75-2d5cd10ac1e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{71971512-abbc-47be-8079-db43dce276ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="UserImages.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RealFTP.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RealFTP.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\back_button.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\next_button.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\queue_button.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\folder_large.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00003.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00004.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00005.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00006.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00007.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00008.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00009.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00010.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00011.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00012.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00013.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00014.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00015.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RealFTP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dirent.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="MyToolbar.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderDock.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVisualManager.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchField.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UrlField.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="iniFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionManager.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="ftp\FTPDataTypes.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="ftp\FTPFileState.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="ftp\FTPFirewallTypeComboBox.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="ftp\FTPListParse.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="ftp\FTPProtocolOutput.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="ftp\Definements.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="ftp\BlockingSocket.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpManager.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="ftp_c.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="ftp_s.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="ut_clnt.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="uterr.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="UTDataSource.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="UTExtErr.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTP_c.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTP_s.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="C_servic.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="DNS_c.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="fileman.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="finger_c.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="finger_s.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="MXLookup.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="nntpc.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="uh_ctrl.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="UT_AccessControl.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="UT_CramMd5.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="UT_CriticalSection.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="UT_HeaderEncoding.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="UT_ICMP.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="UT_Queue.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="UT_RAS.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="UT_Srvr.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="ut_strop.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="utcharset.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="UTEncode.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="utfile.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="UTMessage.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utmime.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="utstrlst.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="uttaglst.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="UTUUEncode.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuNavigator.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FileListView.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RealFtpClient.h">
+      <Filter>Header Files\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTransfer.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionDialog.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitDialog.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TermsDialog.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryDialog.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDialog.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionListDoc.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionListView.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RenameDialog.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePermissions.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Xml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolTip.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="realmemdc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalStore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SysTrayIcon.h">
+      <Filter>Header Files\ToolTray</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayIcon.h">
+      <Filter>Header Files\ToolTray</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Upgrade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WebGrab.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultWebBrowser.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="RunCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadCallback.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadManager.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="unzip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBSCallbackImpl.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="FooterPane.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="RealStatusBar.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Advertisement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeDialog.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RealFTP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="afxctrlcontainer.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="afxglobals.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="winmdi.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HeaderDock.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MyVisualManager.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MyToolbar.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchField.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UrlField.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="iniFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionManager.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="ftp\FTPDataTypes.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="ftp\FTPFileState.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="ftp\FTPFirewallTypeComboBox.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="ftp\FTPListParse.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="ftp\FTPProtocolOutput.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="ftp\BlockingSocket.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpManager.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="ftp_c.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="ftp_s.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_clnt.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="UT_SrvrS.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="UT_SrvrT.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="UTDataSource.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="UT_AccessControl.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="UTMessage.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Utmime.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="uttaglst.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="HTTP_c.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="DNS_c.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="fileman.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="finger_c.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="finger_s.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="MXLookup.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Nartlist.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Ngrplist.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Nntpc.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="uh_ctrl.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="ut_CramMd5.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="UT_HeaderEncoding.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="UT_ICMP.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="UT_Queue.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="UT_StrOp.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="utfile.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="utstrlst.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="UTUUEncode.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuNavigator.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FileListView.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="RealFtpClient.cpp">
+      <Filter>Source Files\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTransfer.cpp">
+      <Filter>Source Files\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionDialog.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitDialog.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TermsDialog.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryDialog.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionListDoc.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionListView.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDialog.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="RenameDialog.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePermissions.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Xml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolTip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalStore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SysTrayIcon.cpp">
+      <Filter>Source Files\ToolTray</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayIcon.cpp">
+      <Filter>Source Files\ToolTray</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Upgrade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WebGrab.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultWebBrowser.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="RunCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadManager.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadCallback.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="unzip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FooterPane.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="RealStatusBar.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Advertisement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradeDialog.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RealFTP.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

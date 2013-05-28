@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{85B2AAA3-21FD-43DB-9CB4-12FB682C0C3B}</ProjectGuid>
+    <RootNamespace>RealFTP</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>version.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>version.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\back_button.png" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\bitmap3.bmp" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="res\bmp00002.bmp" />
+    <None Include="res\bmp00003.bmp" />
+    <None Include="res\bmp00004.bmp" />
+    <None Include="res\bmp00005.bmp" />
+    <None Include="res\bmp00006.bmp" />
+    <None Include="res\bmp00007.bmp" />
+    <None Include="res\bmp00008.bmp" />
+    <None Include="res\bmp00009.bmp" />
+    <None Include="res\bmp00010.bmp" />
+    <None Include="res\bmp00011.bmp" />
+    <None Include="res\bmp00012.bmp" />
+    <None Include="res\bmp00013.bmp" />
+    <None Include="res\bmp00014.bmp" />
+    <None Include="res\bmp00015.bmp" />
+    <None Include="res\folder_large.png" />
+    <None Include="res\next_button.png" />
+    <None Include="res\queue_button.png" />
+    <None Include="res\RealFTP.ico" />
+    <None Include="res\RealFTP.rc2" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Advertisement.h" />
+    <ClInclude Include="CBSCallbackImpl.h" />
+    <ClInclude Include="ChildView.h" />
+    <ClInclude Include="Connection.h" />
+    <ClInclude Include="ConnectionDialog.h" />
+    <ClInclude Include="ConnectionManager.h" />
+    <ClInclude Include="C_servic.h" />
+    <ClInclude Include="DefaultWebBrowser.h" />
+    <ClInclude Include="dirent.h" />
+    <ClInclude Include="DNS_c.h" />
+    <ClInclude Include="DownloadCallback.h" />
+    <ClInclude Include="DownloadManager.h" />
+    <ClInclude Include="ExitDialog.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="FileListView.h" />
+    <ClInclude Include="fileman.h" />
+    <ClInclude Include="FilePermissions.h" />
+    <ClInclude Include="FileTransfer.h" />
+    <ClInclude Include="FileView.h" />
+    <ClInclude Include="finger_c.h" />
+    <ClInclude Include="finger_s.h" />
+    <ClInclude Include="FooterPane.h" />
+    <ClInclude Include="FtpManager.h" />
+    <ClInclude Include="ftp\BlockingSocket.h" />
+    <ClInclude Include="ftp\Definements.h" />
+    <ClInclude Include="ftp\FTPDataTypes.h" />
+    <ClInclude Include="ftp\FTPFileState.h" />
+    <ClInclude Include="ftp\FTPFirewallTypeComboBox.h" />
+    <ClInclude Include="ftp\FTPListParse.h" />
+    <ClInclude Include="ftp\FTPProtocolOutput.h" />
+    <ClInclude Include="ftp_c.h" />
+    <ClInclude Include="ftp_s.h" />
+    <ClInclude Include="HeaderDock.h" />
+    <ClInclude Include="HistoryDialog.h" />
+    <ClInclude Include="HTTP_c.h" />
+    <ClInclude Include="HTTP_s.h" />
+    <ClInclude Include="iniFile.h" />
+    <ClInclude Include="InputDialog.h" />
+    <ClInclude Include="LocalStore.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="realmemdc.h" />
+    <ClInclude Include="MenuNavigator.h" />
+    <ClInclude Include="MXLookup.h" />
+    <ClInclude Include="MyButton.h" />
+    <ClInclude Include="MyMenu.h" />
+    <ClInclude Include="MyToolbar.h" />
+    <ClInclude Include="MyVisualManager.h" />
+    <ClInclude Include="nntpc.h" />
+    <ClInclude Include="RealFTP.h" />
+    <ClInclude Include="RealFtpClient.h" />
+    <ClInclude Include="RealStatusBar.h" />
+    <ClInclude Include="Registry.h" />
+    <ClInclude Include="RenameDialog.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RunCommand.h" />
+    <ClInclude Include="SearchField.h" />
+    <ClInclude Include="ConnectionListDoc.h" />
+    <ClInclude Include="ConnectionListView.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SysTrayIcon.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TermsDialog.h" />
+    <ClInclude Include="ToolTip.h" />
+    <ClInclude Include="TrayIcon.h" />
+    <ClInclude Include="uh_ctrl.h" />
+    <ClInclude Include="unzip.h" />
+    <ClInclude Include="Upgrade.h" />
+    <ClInclude Include="UpgradeDialog.h" />
+    <ClInclude Include="UrlField.h" />
+    <ClInclude Include="utcharset.h" />
+    <ClInclude Include="UTDataSource.h" />
+    <ClInclude Include="UTEncode.h" />
+    <ClInclude Include="uterr.h" />
+    <ClInclude Include="UTExtErr.h" />
+    <ClInclude Include="utfile.h" />
+    <ClInclude Include="UTMessage.h" />
+    <ClInclude Include="Utmime.h" />
+    <ClInclude Include="utstrlst.h" />
+    <ClInclude Include="uttaglst.h" />
+    <ClInclude Include="UTUUEncode.h" />
+    <ClInclude Include="UT_AccessControl.h" />
+    <ClInclude Include="ut_clnt.h" />
+    <ClInclude Include="UT_CramMd5.h" />
+    <ClInclude Include="UT_CriticalSection.h" />
+    <ClInclude Include="UT_HeaderEncoding.h" />
+    <ClInclude Include="UT_ICMP.h" />
+    <ClInclude Include="UT_Queue.h" />
+    <ClInclude Include="UT_RAS.h" />
+    <ClInclude Include="UT_Srvr.h" />
+    <ClInclude Include="ut_strop.h" />
+    <ClInclude Include="Version.h" />
+    <ClInclude Include="WaitDialog.h" />
+    <ClInclude Include="WebGrab.h" />
+    <ClInclude Include="Xml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Advertisement.cpp" />
+    <ClCompile Include="afxctrlcontainer.cpp" />
+    <ClCompile Include="afxglobals.cpp" />
+    <ClCompile Include="Base64.cpp" />
+    <ClCompile Include="ChildView.cpp" />
+    <ClCompile Include="Connection.cpp" />
+    <ClCompile Include="ConnectionDialog.cpp" />
+    <ClCompile Include="ConnectionManager.cpp" />
+    <ClCompile Include="DefaultWebBrowser.cpp" />
+    <ClCompile Include="DNS_c.cpp" />
+    <ClCompile Include="DownloadCallback.cpp" />
+    <ClCompile Include="DownloadManager.cpp" />
+    <ClCompile Include="ExitDialog.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="FileListView.cpp" />
+    <ClCompile Include="fileman.cpp" />
+    <ClCompile Include="FilePermissions.cpp" />
+    <ClCompile Include="FileTransfer.cpp" />
+    <ClCompile Include="FileView.cpp" />
+    <ClCompile Include="finger_c.cpp" />
+    <ClCompile Include="finger_s.cpp" />
+    <ClCompile Include="FooterPane.cpp" />
+    <ClCompile Include="FtpManager.cpp" />
+    <ClCompile Include="ftp\BlockingSocket.cpp" />
+    <ClCompile Include="ftp\FTPDataTypes.cpp" />
+    <ClCompile Include="ftp\FTPFileState.cpp" />
+    <ClCompile Include="ftp\FTPFirewallTypeComboBox.cpp" />
+    <ClCompile Include="ftp\FTPListParse.cpp" />
+    <ClCompile Include="ftp\FTPProtocolOutput.cpp" />
+    <ClCompile Include="ftp_c.cpp" />
+    <ClCompile Include="ftp_s.cpp" />
+    <ClCompile Include="HeaderDock.cpp" />
+    <ClCompile Include="HistoryDialog.cpp" />
+    <ClCompile Include="HTTP_c.cpp" />
+    <ClCompile Include="iniFile.cpp" />
+    <ClCompile Include="InputDialog.cpp" />
+    <ClCompile Include="LocalStore.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="MenuNavigator.cpp" />
+    <ClCompile Include="MXLookup.cpp" />
+    <ClCompile Include="MyButton.cpp" />
+    <ClCompile Include="MyMenu.cpp" />
+    <ClCompile Include="MyToolbar.cpp" />
+    <ClCompile Include="MyVisualManager.cpp" />
+    <ClCompile Include="Nartlist.cpp" />
+    <ClCompile Include="Ngrplist.cpp" />
+    <ClCompile Include="Nntpc.cpp" />
+    <ClCompile Include="RealFTP.cpp" />
+    <ClCompile Include="RealFtpClient.cpp" />
+    <ClCompile Include="RealStatusBar.cpp" />
+    <ClCompile Include="Registry.cpp" />
+    <ClCompile Include="RenameDialog.cpp" />
+    <ClCompile Include="RunCommand.cpp" />
+    <ClCompile Include="SearchField.cpp" />
+    <ClCompile Include="ConnectionListDoc.cpp" />
+    <ClCompile Include="ConnectionListView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SysTrayIcon.cpp" />
+    <ClCompile Include="TermsDialog.cpp" />
+    <ClCompile Include="ToolTip.cpp" />
+    <ClCompile Include="TrayIcon.cpp" />
+    <ClCompile Include="uh_ctrl.cpp" />
+    <ClCompile Include="unzip.cpp" />
+    <ClCompile Include="Upgrade.cpp" />
+    <ClCompile Include="UpgradeDialog.cpp" />
+    <ClCompile Include="UrlField.cpp" />
+    <ClCompile Include="UTDataSource.cpp" />
+    <ClCompile Include="utfile.cpp" />
+    <ClCompile Include="UTMessage.cpp" />
+    <ClCompile Include="Utmime.cpp" />
+    <ClCompile Include="utstrlst.cpp" />
+    <ClCompile Include="uttaglst.cpp" />
+    <ClCompile Include="UTUUEncode.cpp" />
+    <ClCompile Include="UT_AccessControl.cpp" />
+    <ClCompile Include="ut_clnt.cpp" />
+    <ClCompile Include="ut_CramMd5.cpp" />
+    <ClCompile Include="UT_HeaderEncoding.cpp" />
+    <ClCompile Include="UT_ICMP.cpp" />
+    <ClCompile Include="UT_Queue.cpp" />
+    <ClCompile Include="UT_SrvrS.cpp" />
+    <ClCompile Include="UT_SrvrT.cpp" />
+    <ClCompile Include="UT_StrOp.cpp" />
+    <ClCompile Include="Version.cpp" />
+    <ClCompile Include="WaitDialog.cpp" />
+    <ClCompile Include="WebGrab.cpp" />
+    <ClCompile Include="winmdi.cpp" />
+    <ClCompile Include="Xml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RealFTP.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="RealFTP.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
